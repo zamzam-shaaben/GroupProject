@@ -1,0 +1,17 @@
+.login_container{
+    margin-top: 86px;
+}
+
+login_block{
+    border-right: 1px solid darkred;
+
+}
+.signup_block{
+    border-left: 1px solid darkred;
+}
+.reset_password{
+    cursor: pointer;
+}
+.login_inner{
+    margin-top: 80px;
+}

@@ -1,0 +1,32 @@
+.page_container {
+
+    margin-top: -14px;
+    margin-bottom: 70px;
+}
+.footer{
+    background-color: darkred;
+    height: 250px;
+}
+.footer_text {
+    color: white;
+
+}
+.subscribe_box{
+    padding-left: 29px;
+    padding-top: 25px;
+}
+.contect_tab{
+    width : 50px;
+    height :39px;
+    padding-left : 39px;
+
+}
+.social_icon{
+    width : 50px;
+    float : left ;
+    color :  white;
+    font-size : 35px;
+    padding : 46px;
+    margin-top: 50px;
+
+}

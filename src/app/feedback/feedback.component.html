@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="row">
+        <form [formGroup]="feedback_form" (ngSubmit)="save_feedback(feedback_form)">
+        <div class="col-sm-12">
+            <div class="feed_backform">
+                <div class="row">
+                    <div class="col-sm-12 mb-4">
+                        <h3 class="text-danger"> Clients Feedback</h3>
+                    </div>
+                    <div class="col-sm-12 mt-4">
+                        <div class="form-group">
+                            <label> Enter Name </label>
+                            <input type="text"  formControlName="name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label> Enter E-Mail </label>
+                            <input type="text" formControlName="email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label> Enter Number</label>
+                            <input type="text" formControlName="mobile_no" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label> Feedback Type</label>
+                            <select  formControlName="feedback_type" class="form-control">
+                            <option value="1">Service</option>
+                            <option value="1">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label> Message</label>
+                            <textarea  formControlName="message" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                 <div class="form-group">
+                     <button class="btn btn-danger btn-block">Send</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    </div>
+</div>
